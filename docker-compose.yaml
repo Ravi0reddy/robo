@@ -15,7 +15,7 @@ services:
   - shipping
  mongodb:
   image: mongodb:v1
-  conatiner_name: mongodb
+  container_name: mongodb
  catalogue: 
   image: catalogue:v1
   container_name: catalogue
@@ -40,7 +40,7 @@ services:
   container_name: mysql
  shipping:
   image: shipping:v1
-  conatiner_name: shipping
+  container_name: shipping
   depends_on: 
   - mysql
 
